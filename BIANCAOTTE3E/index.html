@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FOTÓGRAFO COM SEU NOME</title>
+  <link rel="stylesheet" href="./css/css.css">
+</head>
+<body>
+  <div class="arroz">
+    <header class="header">
+        <h1>FOTOGRAFO</h1>
+            <h2>João Ninguem</h2>
+                <div class="container">
+                        <div class="nav-list">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Portifólio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a id="login" onclick="AbrirModal()" style="cursor: pointer;" class="nav-link">Contato</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Casamentos</a>
+                                </li>
+                        </div>
+                </div>
+    </header>
+    <main>
+        <img class="a" src="./assets/assets/img/Foto1.png" alt="">
+        <img class="b" src="./assets/assets/img/Foto2.png" alt="">
+        <img class="c" src="./assets/assets/img/Foto3.png" alt="">
+        <img class="d" src="./assets/assets/img/Foto4.png" alt="">
+    </main>
+    <div id="backmodal">
+      <div id="modal">
+          <h2>Formulário de Contato</h2>
+          <input id="name" type="text" placeholder="Digite seu nome">
+          <input id="email" type="email" placeholder="Digite seu email">
+          <input id="number" type="text" placeholder="Digite seu número de contato">
+          <input id="text" type="text" placeholder="Deixe uma mensagem">
+          <div id="buttons">
+              <button onclick="FecharModal()" id="cancelar" class="btncancelar">Cancelar</button>
+              <button class="btnenviar" id="logar">Enviar</button>
+          </div>
+      </div>
+  </div>
+    <footer>
+        <section class="find-me">
+            <div class="container">
+                <article class="find-me">
+                    <h3>    
+                        <p class="devs">
+                            Desenvolvido por <br>
+                            Carlos Wilton e Jonathas Maciel
+                        </p>
+                    </h3>
+                        <div class="contacts">
+                            <img src="./assets/assets/icones/Facebook.svg" alt="">
+                    
+                    
+                            <img src="./assets/assets/icones/Instagram.svg" alt="">                         
+                    
+                
+                            <img src="./assets/assets/icones/Twitter.svg" alt="">
+                    
+                    
+                            <img src="./assets/assets/icones/Twitch.svg" alt="">
+                        </div>
+                </article>
+            </div>
+        </section>
+    </footer>
+</div>
+<script src="./js/js.js"></script>
+</body>
+</html>
